@@ -1,0 +1,9 @@
+.signinDiv{
+    background-color: ghostwhite;
+    width: 400px;
+    height: 630px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
