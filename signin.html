@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="signin.css">
+    <title>SIGN IN</title>
+</head>
+<body>
+    <center>
+        <form id = "signinForm">
+            <div class="signinDiv">
+                <h3>WELCOME!</h3>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <br><br>
+                <label for="Password">Password:</label>
+                <input type="password" id="password" name="Password">
+                <br><br>
+                <button type="submit" class="btn btn-success">SIGN IN</button>
+                <br><br>
+                <p>Don't have an account?</p>
+                
+                <a href="signup.html" target="_parent" class="btn btn-primary">SIGN UP</a>
+            </div>
+        </form>
+    </center>
+
+    
+    <!-- Create two forms using HTML & CSS, SignIn and SignUp.
+The SignIn form should include two fields, username and password.
+The SignUp form should consist of at least 8 fields of different types to demonstrate front-end validation for various data inputs.
+Utilize pure JavaScript to validate both form input fields, with the option to use regex for this purpose.-->
+    <script src="signin.js"></script>
+</body>
+</html>
